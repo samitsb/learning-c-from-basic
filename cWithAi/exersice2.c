@@ -29,18 +29,20 @@ int l,sum=0,i=1;
  }
  printf("total sum is %d\n",sum);
 */
- #include <stdio.h>
-int main()
- { int input,sum=0;
-    printf("enter a number");
-    scanf("%d",&input);
-    if (input>=0)
-    {
-      
-    }   
-    
-    
-    
-    
-    return 0;
- }
+/*THE FOREVER LOOP very important
+int input,sum=0;
+     while (1)
+     {
+         printf("enter a number:");
+         scanf("%d", &input);            
+         if (input < 0)    
+         {
+           break;
+         }else{
+            sum = sum + input;         
+         }
+        
+     }
+      printf("the sum is %d\n", sum);
+*/
+ 
