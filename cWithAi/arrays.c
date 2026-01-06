@@ -38,3 +38,8 @@ int nums[5];
    }  
    printf("Minimum number is %d",min);
  */
+#include <stdio.h>
+int main ()
+{
+   
+}
