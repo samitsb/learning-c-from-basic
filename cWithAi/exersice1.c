@@ -48,3 +48,22 @@
     printf("Regular price applies");
   }*/
  
+#include <stdio.h>
+int function
+int main()
+ {
+  int result= factorial(5);
+  
+ }
+
+ //function definition
+ int factorial(int n)
+ {
+  int result = 1;
+  while (n!=0)
+  {
+    result = result * n;
+    n--;
+  }
+  return result;
+ }

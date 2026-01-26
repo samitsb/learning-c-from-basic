@@ -41,5 +41,17 @@ int nums[5];
 #include <stdio.h>
 int main ()
 {
+   char students [5] [50];
+   for (int i = 0; i < 5; i++)
+   {
+      printf("Enter name of student %d:",i+1);
+      fgets(students[i], sizeof(students[i]), stdin);
+   }
+  
+   for (int i = 0; i < 5; i++)
+   {
+      printf("students %d: %s\n",i+1,students[i]);
+   }
+return 0;
    
 }
