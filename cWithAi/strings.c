@@ -115,3 +115,59 @@ return 0;
 // }
 
 //string palindrome
+// #include <stdio.h>
+// int main()
+// {
+//     char word[50];
+//     int i=0;
+   
+    
+//     printf("enter a word:");
+//     scanf("%s",word);
+
+//     while (word[i] != '\0')
+//     {
+//         i++;
+//     }
+//     int  low = 0,high=i-1,isPalindrome=1;
+//     while(low<high)
+//     {
+//         if (word[low] != word[high])
+//         {
+//             isPalindrome=0;
+//             break;
+//         }
+//         low++;
+//         high--;
+        
+//     }
+//     if (isPalindrome == 1)
+//     {
+//        printf("it is palindrome");
+//     }else
+//     {
+//         printf("it is not palindrome");
+//     }
+    
+//     return 0;        
+// }
+
+//structure 
+#include <stdio.h>
+int main()
+{
+    struct employee{
+        char name[30];
+        int id;
+        float salary;
+    };
+    struct employee emp;
+    printf("enter the name,id,salary:");
+    scanf("%s""%d""%f",emp.name,&emp.id,&emp.salary);
+
+    printf("\nEnter employee ID:");
+    printf("Id:%d\n", emp.id);
+    printf("Name:%s\n",emp.name);
+    printf("Salary:%f\n",emp.salary);
+
+}
